@@ -1,0 +1,19 @@
+name: "Pushover"
+author: "Horst Gutmann"
+description: "Sends a notification via Pushover"
+inputs:
+  token:
+    description: API token
+    required: true
+  user:
+    description: Target user ID
+    required: true
+  message:
+    description: Message part of the notification
+    required: true
+  title:
+    description: Title that should be included in the notification
+    required: false
+  url:
+    description: URL to be included in the notification
+    required: false
