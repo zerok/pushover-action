@@ -1,6 +1,11 @@
 name: "Pushover"
 author: "Horst Gutmann"
 description: "Sends a notification via Pushover"
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: bell
 inputs:
   token:
     description: API token
