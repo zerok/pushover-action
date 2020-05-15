@@ -3,7 +3,7 @@ author: "Horst Gutmann"
 description: "Sends a notification via Pushover"
 runs:
   using: docker
-  image: Dockerfile
+  image: "docker://zerok/pushover-action"
 branding:
   icon: bell
 inputs:
